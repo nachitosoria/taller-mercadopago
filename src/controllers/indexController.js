@@ -50,11 +50,11 @@ module.exports = {
 
         let preference = {
             back_urls: {
-                success: 'http://localhost:3000/callback?status=success',
-                pending: 'http://localhost:3000/callback?status=pending',
-                failure: 'http://localhost:3000/callback?status=failure',
+                success: 'https://taller-mercadopago.herokuapp.com/callback?status=success',
+                pending: 'https://taller-mercadopago.herokuapp.com/callback?status=pending',
+                failure: 'https://taller-mercadopago.herokuapp.com/callback?status=failure',
             },
-            notification_url: 'http://localhost:3000/notifactions',
+            notification_url: 'https://taller-mercadopago.herokuapp.com/notifactions',
             auto_return: 'approved',
 
             payer: {
