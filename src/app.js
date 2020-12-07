@@ -20,6 +20,11 @@ app.use(express.static(path.resolve(__dirname, '../public')));
 
 app.use('/', indexRouter);
 
+app.post('/webhooks', function(req, res) {
+  console.log('webhook', req.body)
+  res.send(req.body)
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
