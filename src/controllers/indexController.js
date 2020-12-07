@@ -21,7 +21,7 @@ module.exports = {
     callback: (req, res) => {
         console.log(req.query)
 
-        if (req.query.status === 'success') {
+        if (req.query.status.includes('success')) {
             return res.render('success', {
                 payment_type: req.query.payment_type,
                 external_reference: req.query.external_reference,
@@ -30,11 +30,11 @@ module.exports = {
 
         }
 
-        if (req.query.status === 'pending') {
+        if (req.query.status,includes('pending')) {
             return res.render('pending')
         }
 
-        if (req.query.status === 'failure') {
+        if (req.query.status.includes('failure')) {
             return res.render('failure')
         }
 
