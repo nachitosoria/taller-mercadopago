@@ -59,7 +59,7 @@ module.exports = {
                 pending: 'https://taller-mercadopago.herokuapp.com/callback?status=pending',
                 failure: 'https://taller-mercadopago.herokuapp.com/callback?status=failure',
             },
-            notification_url: 'https://taller-mercadopago.herokuapp.com/notifactions',
+            notification_url: 'https://taller-mercadopago.herokuapp.com/notifications',
             auto_return: 'approved',
 
             payer: {
