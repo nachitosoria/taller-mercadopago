@@ -46,7 +46,7 @@ module.exports = {
         
         console.log(req.body)
 
-        res.send(200).end('Ok')
+        res.status(200).end('Ok')
 
     },
 
