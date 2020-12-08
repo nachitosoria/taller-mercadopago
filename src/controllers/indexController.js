@@ -59,22 +59,22 @@ module.exports = {
                 pending: 'https://taller-mercadopago.herokuapp.com/callback?status=pending',
                 failure: 'https://taller-mercadopago.herokuapp.com/callback?status=failure',
             },
-            notification_url: 'https://taller-mercadopago.herokuapp.com/notifications',
+            notification_url: 'https://taller-mercadopago.herokuapp.com/webhooks',
             auto_return: 'approved',
 
             payer: {
-                name: 'Ryan',
-                surname: 'Dahl',
+                name: 'Lalo',
+                surname: 'Landa',
                 email: 'test_user_63274575@testuser.com',
                 phone: {
                     area_code: '11',
-                    number: 55556666,
+                    number: 22223333,
                 },
 
                 adress: {
-                    zip_code: '1234',
-                    street_name: 'Monroe',
-                    street_number: 860,
+                    zip_code: '1111',
+                    street_name: 'False',
+                    street_number: 123,
                 }
             },
 
@@ -94,12 +94,12 @@ module.exports = {
                     picture_url: '',
                     title: 'Nombre del producto',
                     description: 'Dispositivo móvil de Tienda e-commerce',
-                    unit_price: 999,
+                    unit_price: '999',
                     quantity: 1,             
                 }
             ],
 
-            external_reference: 'ignaciosoria82@gmail.com'
+            external_reference: 'nacho.soria.casella@gmail.com'
         }
 
 
