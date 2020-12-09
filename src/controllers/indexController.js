@@ -78,7 +78,7 @@ module.exports = {
                 }
             },
 
-            paymentmethods: {
+            payment_methods: {
                 excluded_payment_methods: [
                     { id: 'amex'}
                 ],
