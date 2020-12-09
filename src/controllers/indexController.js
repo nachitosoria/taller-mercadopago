@@ -91,10 +91,10 @@ module.exports = {
             items : [
                 {
                     id: 1234,
-                    picture_url: '',
+                    picture_url: 'https://taller-mercadopago.herokuapp.com/images/products/disruptor.jpg',
                     title: 'Nombre del producto',
                     description: 'Dispositivo móvil de Tienda e-commerce',
-                    unit_price: '999',
+                    unit_price: 999,
                     quantity: 1,             
                 }
             ],
